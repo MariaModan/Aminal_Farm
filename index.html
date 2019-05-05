@@ -1,0 +1,49 @@
+<!doctype HTML>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal Farm</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="playing.js"></script>
+</head>
+
+  <body>
+    <div class="shapes">
+    <div class="circle" id="circle1">
+    </div>
+    <div class="circle" id="circle2">
+    </div>
+    <div class="circle" id="circle3">
+    </div>
+    </div>
+    <div class="title">
+      <h2 id="title1">Animal</h2>
+      <h2 id="title2">Farm</h2>
+    </div>
+
+    <div class="animals">
+      <span id="pig" class="animal">
+        <img class="animal images1" src="https://www.pinclipart.com/picdir/big/11-118114_picture-free-dirty-pigs-clipart-transparent-background-pig.png">
+        <h3 class="animal sound">Oynk</h3>
+        <audio id="pig_song" src="sounds/pig.mp3" type="audio/mpeg"></audio>
+      </span>
+      <span id="chicken" class="animal">
+        <img class= "animal images2" src="https://www.pngkey.com/png/full/61-614278_chick-transparent-cartoon-jpg-transparent-stock-cartoon-chicken.png">
+        <h3 class="animal sound">Bak</h3>
+        <audio id="chicken_song" src="sounds/chicken.mp3" type="audio/mpeg"></audio>
+
+      </span>
+      <span id="cow" class="animal">
+        <img class="animal images3" src="https://www.pinclipart.com/picdir/big/0-5985_cow-clipart-black-and-white-cow-clipart-png.png">
+        <h3 class="animal sound">Moo</h3>
+        <audio id="cow_song" src="sounds/cow.mp3" type="audio/mpeg"></audio>
+      </span>
+    </div>
+    <div class="btn_div" id="btn_div">
+      <button class="btn" id="btn" type="button" onclick= "play()">Play</button>
+      <audio id="farm_song" src="sounds/animal_farm.mp3" type="audio/mpeg"></audio>
+    </div>
+
+
+  </body>
+</html>

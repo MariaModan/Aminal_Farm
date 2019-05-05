@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+html{
+  font-size:10px;
+  background: url() center;
+
+  background-size: cover;
+}
+
+
+.shapes{
+  display: flex;
+  margin-top: 11rem;
+  justify-content:center;
+  position:relative;
+}
+#circle1{
+  background:#1ed114;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+}
+#circle2{
+  background:#1ed114;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  margin-left:-20rem;
+  margin-top:-10rem;
+}
+#circle3{
+  background:#1ed114;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  margin-left:27rem;
+  bottom:-7rem;
+  position: absolute;
+
+}
+
+.title{
+  font-family:Chicle, sans-serif;
+  font-size: 10em;
+  letter-spacing:0.05em;
+  position:relative;
+  margin:0px;
+  padding:0px;
+}
+
+#title1{
+  position:absolute;
+  margin-top:-34rem;
+  margin-left: 78rem;
+}
+#title2{
+  position:absolute;
+  margin-top:-20rem;
+  margin-left: 110rem;
+}
+
+@media screen and (device-width: 360px){
+  #title1{
+    margin-top:-33rem;
+    margin-left: 18rem;
+  }
+  #title2{
+    margin-top:-18rem;
+    margin-left: 50rem;
+  }
+}
+
+.images1{
+  width: 20em;
+  transition: 0.1s;
+}
+.images2{
+  width: 16em;
+  transition: 0.1s;
+}
+.images3{
+  width: 35em;
+  transition: 0.1s;
+}
+.animals{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 10em;
+  margin-left:20em;
+  font-family:Chicle, sans-serif;
+  letter-spacing:0.1em;
+  cursor:pointer;
+
+}
+h3{
+  font-size: 3em;
+  text-align:center;
+  border:0.1em solid black;
+  transition: 0.1s;
+
+}
+#pig{
+  margin-left:5em;
+}
+#chicken{
+  margin-left:5em;
+}
+#cow{
+  margin-left:4em;
+}
+.lightBorder{
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.bigger{
+  transform:scale(1.1);
+}
+
+.btn-div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-text:center;
+}
+.btn{
+  background-color: #1ed114;
+  color: black;
+  border-color: #1ed114;
+  width: 30rem;
+  height:5rem;
+  font-family:Chicle, sans-serif;
+  font-size: 4em;
+  letter-spacing:0.02em;
+  cursor:pointer;
+
+}
